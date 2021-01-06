@@ -103,6 +103,6 @@ def play(board)
   if winner(board)
     puts "Congratulations X!"
   else
-    puts "Cat's Game"
+    puts "Cat's Game!"
   end
 end
