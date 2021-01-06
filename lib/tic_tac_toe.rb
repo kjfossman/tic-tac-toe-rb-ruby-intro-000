@@ -102,6 +102,6 @@ def play(board)
   end
   if draw?(board)
     puts "Cat's Game"
-  
+
 
 end
