@@ -100,8 +100,13 @@ def play(board)
   until over?(board)
     turn(board)
   end
-  if draw?(board)
+  if winner(board)
+    puts "Congratulations player"
+  else
     puts "Cat's Game"
+  end
+end
+
 
 
 end
